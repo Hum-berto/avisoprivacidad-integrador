@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Estilos para el contenedor principal */
+.about-container {
+    max-width: 800px;
+    width: 90%;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos para los encabezados */
+h1 {
+    color: #007bff;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilos para el contenido del aviso */
+p {
+    line-height: 1.6;
+    margin: 0 auto 20px;
+    max-width: 700px;
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    text-align: left;
+    width: 100%;
+    color: #555;
+}
+
+ul li strong {
+    color: #007bff;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
